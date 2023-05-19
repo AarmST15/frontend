@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+
+h1 {
+    /* padding-top: 2rem; */
+    color: black;
+    text-align: center;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.page {
+    background-color: #E5D3B3;
+}
+
+.cus-id {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cus-id label {
+    padding-right: 1rem;
+}
+
+.cus-id input {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.385);
+    background-color: rgba(204, 163, 112, 0.354);
+    border-radius: 5px;
+}
+
+.cus-id input:hover {
+    background-color: rgba(240, 248, 255, 0.341);
+}
+
+.select-table {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.select-table label {
+    margin-right: 1rem;
+}
+
+.select-table select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.385);
+    background-color: rgba(204, 163, 112, 0.354);
+    border-radius: 5px;
+}
+
+.select-table select:hover {
+    background-color: rgba(240, 248, 255, 0.341);
+}
+
+.order-head{
+    background-color: rgb(248, 192, 118);
+}

@@ -1,0 +1,32 @@
+.App h1 {
+    color: white;
+}
+
+.App hr {
+    border: 2px solid white;
+}
+
+.information label{
+    color: white;
+}
+
+.information input {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.update-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(103, 156, 106);
+}
+
+.select-type label {
+    margin-right: 1rem;
+}
+
+.select-type select {
+    margin-top: 5px;
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+}

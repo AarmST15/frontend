@@ -1,0 +1,9 @@
+
+.order-list {
+    text-align: center;
+    background-color: rgb(247, 241, 222);
+    padding: 2rem;
+    border-radius: 15px;
+    height: max-content;
+    margin: 2rem 15rem;
+}

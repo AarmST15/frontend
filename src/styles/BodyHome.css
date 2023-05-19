@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+
+.grid-stye{
+    margin-bottom: 2rem;
+    font-family: 'Castoro Titling', cursive;
+    padding: 0 1rem;
+}
+
+.img-stye img{
+    margin-right: 5rem;
+}
+
+.text-stye{    
+    text-align: center;    
+}
+
+.text-stye p{
+    font-size: 2rem;
+}

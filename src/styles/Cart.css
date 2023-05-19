@@ -1,0 +1,87 @@
+article {
+  width: 85%;
+  margin: auto;
+}
+
+.cart_box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.cart_img {
+  display: flex;
+  width: 400px;
+}
+
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+  padding-top: 1rem;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid rgb(152, 94, 50);
+  padding-bottom: 1rem;
+}
+
+.cart_box button {
+  margin-left: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(245, 124, 124);
+  padding: 5px;
+  font-size: 15px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.total span:nth-child(1) {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.point-discount {
+  margin-top: 1rem;
+}
+
+.point-discount p {
+  margin-top: 1rem;
+}
+
+.point-discount button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 1rem;
+}
+
+.point-discount button:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.pay-popup button{
+  border: none;
+  border-radius: 10px;
+  text-decoration: underline;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 15px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+html {
+    font-size: calc(80%+0.8vmin);
+}
+
+.app-header {
+    background-image:url('/public/images/cafe-02.jpg');
+    background-color:#C17F00;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.app-grid {
+    margin: 30px;    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.home {
+    background: #FAEBCD;
+}
+
+.app-in-grid {
+    text-align: right;
+    margin: 15px;
+    border: 10px ;
+    border-top-left-radius:30px ;
+    background-color:#C09A51;
+}
+
+.bg-header{
+    background-image:url('/public/images/cafe-02.jpg');
+    height: 400px;
+}
+
+.carousel-stye{
+    margin: 15px;
+    border: 10px ;
+    border-radius: 15px;
+}
+
+.openhr {
+    text-align: center;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.openhr h2 {
+    font-size: 2rem;
+}
+
+.openhr h4 {
+    font-size: 2.5rem;
+}
+
+.openhr p{
+    font-size: 1.5rem;
+}

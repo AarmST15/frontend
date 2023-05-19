@@ -1,0 +1,20 @@
+.random-ctn {
+    display: grid;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.random-btn button {
+    margin-bottom: 2rem;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.random-btn {
+    text-align: center;
+}
+
+.random-btn button:hover {
+    color: white;
+}

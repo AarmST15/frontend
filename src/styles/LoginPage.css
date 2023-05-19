@@ -1,0 +1,22 @@
+.login-container {
+    padding: 1rem 1rem;
+}
+
+.login-choice {
+    /* width: 50%; */
+    margin: auto;
+    padding-bottom: 10px ;
+    text-align: center;
+    /* padding: 2rem 0; */
+    font-size: 2rem;
+}
+
+.login-choice button {
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+.login-choice button:hover {
+    color: white;
+}

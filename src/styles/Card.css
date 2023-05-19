@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.card-container {
+    font-family: 'Roboto Mono', monospace;
+    background-color: blanchedalmond;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px 2px;
+}
+
+.card-header hr {
+    border-radius: 15px 15px 0px 0px;
+    background-color: black;
+    border: black 20px solid;
+    opacity: 1;
+}
+
+.card-img {
+    padding: 1rem 1rem;
+}
+
+.card-img img {
+    width: 70%;
+}
+
+.card-title {
+    padding: 1rem 1rem;
+}
+
+.card-container a {
+    text-decoration: none;
+}
+
+.card-container a:link {
+    color: black;
+}
+
+.card-container a:visited {
+    color: black;
+}
+
+.card-container a:hover {
+    color: #664229;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+.bg-header{
+    background-image:url('/public/images/cafe-02.jpg');
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    background: #FAEBCD;
+}
+
+.mask {
+    height: 250px;
+}
+
+.header-stye {
+    font-family: 'Castoro Titling', cursive;
+}
+
+/* .header-stye h4, h1 {
+    font-size: 3rem;
+    color: black;
+} */

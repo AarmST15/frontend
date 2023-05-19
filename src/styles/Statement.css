@@ -1,0 +1,14 @@
+.income {
+    background-color: rgb(253, 248, 231);
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+.total-sum {
+    text-align: center;
+    color: white;
+}
+
+#stat-head {
+    color: white;
+}

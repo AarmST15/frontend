@@ -1,0 +1,87 @@
+.comment-section {
+    padding: 2rem;
+    /* display: flex; */
+    background-color: rgb(248, 192, 118);
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.read-comment h2 {
+    padding-left: 2rem;
+}
+
+.comment-card {
+    background-color: rgba(255, 255, 255, 0.494);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.post-comment form {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.post-comment label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.post-comment input, textarea{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.post-comment ::placeholder {
+    color: #727272;
+}
+
+.post-comment input:hover {
+    outline: 2px solid #0001;
+}
+
+.post-comment button {
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-top: 30px;
+    width: max-content;
+    height: max-content;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-comment button:hover {
+    border: 2px solid #ed630d;
+}
+
+.show-comment {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.show-comment button{
+    border: none;
+    background-color: transparent;
+}
+
+.show-comment button:hover{
+    color: white;
+}
