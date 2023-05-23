@@ -292,26 +292,25 @@ export default function AddMenu() {
             <div>
             <nav aria-label="Pagination">
 
-                <Button variant="outlined" href='/menu' className='text-dark header-stye' style={{ backgroundColor: 'rgb(255, 255, 232, 0.3)' ,color:'#FFF' ,borderColor:'#000'}} 
+            <Button variant="outlined"  className='text-dark header-stye' style={{ backgroundColor: 'rgb(255, 255, 232, 0.3)' ,color:'#FFF' ,borderColor:'#000', marginLeft:'90vh'}} 
                   onClick={() => {
                     if (page != 1) setPage(page - 1);
                   }}
-                  // href="#"                  
+                                   
                 >
                     back                  
                 </Button>
 
-                <a
+                <Button variant="outlined" className='text-dark header-stye' style={{ backgroundColor: 'rgb(255, 255, 232, 0.3)' ,color:'#FFF' ,borderColor:'#000'}}
                   onClick={() => {
                     if (page != Math.ceil(items.length / itemsPerPage))
                       setPage(page + 1);
-                  }}
-                  
+                  }}                 
                 >
                   
                   next
-                  {/* <ChevronRightIcon className="h-5 w-5" aria-hidden="true" /> */}
-                </a>
+                  
+                </Button>
               </nav>                          
 
             </div>
