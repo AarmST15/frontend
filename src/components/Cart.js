@@ -11,6 +11,7 @@ export default function Cart({ cart, setCart, emptyCart, orderId, cusName }) {
     const [cusPoint, setCusPoint] = useState(0);
     const [usePoint, setUsePoint] = useState(false)
     const [image, setImage] = useState("")
+    
 
     let URL = "http://127.0.0.1:8082"
 
@@ -189,12 +190,9 @@ export default function Cart({ cart, setCart, emptyCart, orderId, cusName }) {
                     </script>
                     <div>
                         <input type="file" accept="image/*" onChange={handleImageChange} required/>
-                        {image && <img src={image} alt="Selected" />}
+                        {image && <img src={image} alt="Selected" style={{maxHeight:"230px"}}/>}
                     </div>
-                    <button  onClick={() => {
-                        setPopup(false)
-                        emptyCart()
-                        }}>Submit</button>
+                    
                 </PaymentPopup>
             </div>
         </article>

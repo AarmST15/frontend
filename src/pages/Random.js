@@ -35,7 +35,14 @@ export default function Random() {
         <>
             <div className="page">
                 <NavBar />
-                <h1>Let us choose menu for you</h1>
+                <header>
+                <div className='p-3 text-center order-head'>
+                    <h1 className='mb-3'>Let us choose menu for you</h1>
+                    <h6 className='mb-3'>Try something new in case it works for you.</h6>        
+                </div>
+
+                </header>
+                
                 <div className="random-ctn">
                     <div className="random-btn">
                         <button onClick={handleClick}>

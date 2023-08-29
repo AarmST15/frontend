@@ -109,16 +109,16 @@ export default function AddMenu() {
         <>
             <div className="bg-choose" ></div>
             <StaffHeader />
-            <div className="App container">
+            <div className="">
             <Button 
                 variant="outlined" 
                 href='/staff-homepage' 
                 className='text-black header-stye' 
-                style={{ backgroundColor: 'rgb(255, 255, 255, 0.6)' ,color:'#FFF' ,borderColor:'#000', marginTop:'20px'}}>
+                style={{ backgroundColor: 'rgb(255, 255, 255, 0.6)' ,color:'#FFF' ,borderColor:'#000', marginTop:'20px', marginLeft:'200px'}}>
                     <h5 style={{paddingTop:'10px'}}>Back </h5>
             </Button>
 
-                <h1 style={{marginTop:'30px' , marginBottom:'30px'}}>Setting Menu</h1>
+                <h1 style={{marginTop:'30px' , marginBottom:'30px'}}>Manage Menu</h1>
 
                 <div className="information">
                     <form action="" >
@@ -306,10 +306,8 @@ export default function AddMenu() {
                     if (page != Math.ceil(items.length / itemsPerPage))
                       setPage(page + 1);
                   }}                 
-                >
-                  
-                  next
-                  
+                >                  
+                  next                  
                 </Button>
               </nav>                          
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/Statement.css';
 import StaffHeader from '../components/StaffHeader';
-import PieChartStatement from '../components/PieChartStatement';
+import ChartStatement from '../components/ChartStatement';
 import Button from '@mui/material/Button';
 
 export default function Statement() {
@@ -34,14 +34,14 @@ export default function Statement() {
                 variant="outlined" 
                 href='/staff-homepage' 
                 className='text-black header-stye' 
-                style={{ backgroundColor: 'rgb(255, 255, 255, 0.6)' ,color:'#FFF' ,borderColor:'#000', marginTop:'20px',marginLeft:'200px'}}>
+                style={{ backgroundColor: 'rgb(255, 255, 255, 0.6)' ,color:'#FFF' ,borderColor:'#000', marginTop:'20px',marginLeft:'150px'}}>
                     <h5 style={{paddingTop:'10px'}}>Back </h5>
             </Button>
             <h1 id='stat-head'>Statement</h1>
             <div className="total-sum">
                 <h3>Total income: {totalSum}</h3>
             </div>
-            <PieChartStatement />
+            <ChartStatement />
             <div className='statement-table'>
                 <table className="styled-table" width='800' >
                     <thead>
